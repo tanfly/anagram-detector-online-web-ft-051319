@@ -6,9 +6,9 @@ class Anagram
   end
   
   def match(maybe_anagrams_array)
- letters = word.split.sort 
+ letters = word.sort 
  maybe_anagrams_array.find_all do |words|
-   if words.split.sort == letters 
+   if words.sort == letters 
      words
    end 
  end 
