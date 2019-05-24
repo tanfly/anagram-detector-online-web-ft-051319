@@ -9,6 +9,8 @@ class Anagram
  maybe_anagrams_array.each do |maybe_anagram|
    if word.chars.sort == maybe_anagram.chars.sort 
      maybe_anagram
+   else 
+     []
    end
  end
  end
