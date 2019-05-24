@@ -10,6 +10,7 @@ class Anagram
    if word.chars.sort == maybe_anagram.chars.sort 
      maybe_anagram
    end
+ end
    
   
   
