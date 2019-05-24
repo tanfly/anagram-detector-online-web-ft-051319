@@ -6,7 +6,8 @@ class Anagram
   end
   
   def match(maybe_anagrams_array)
-
+ maybe_anagrams_array.each do |maybe_anagram|
+   maybe_anagram.
    
   
   
